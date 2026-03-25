@@ -28,7 +28,6 @@
     "debug": "bool"
   },
   "arch": ["amd64", "aarch64", "armv7"],
-  "image": "ghcr.io/wieand77/dynu-certbot-{arch}",
   "init": false,
   "map": ["ssl:rw", "config:rw"],
   "ports": {

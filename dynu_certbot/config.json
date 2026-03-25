@@ -1,0 +1,30 @@
+{
+  "name": "DynU Certbot Pro",
+  "version": "3.0.0",
+  "slug": "dynu_certbot",
+  "description": "Advanced Certbot + DynU DNS (FQDN fix, DNS verify, HA integration)",
+  "startup": "services",
+  "boot": "auto",
+  "options": {
+    "email": "",
+    "domains": [],
+    "api_key": "",
+    "propagation_seconds": 120,
+    "enable_dns_check": true,
+    "restart_homeassistant": true,
+    "staging": false,
+    "dry_run": false,
+    "debug": false
+  },
+  "schema": {
+    "email": "str",
+    "domains": ["str"],
+    "api_key": "str",
+    "propagation_seconds": "int",
+    "enable_dns_check": "bool",
+    "restart_homeassistant": "bool",
+    "staging": "bool",
+    "dry_run": "bool",
+    "debug": "bool"
+  }
+}

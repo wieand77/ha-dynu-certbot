@@ -1,6 +1,6 @@
 {
   "name": "DynU Certbot Pro",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "slug": "dynu_certbot",
   "description": "Advanced Certbot + DynU DNS (FQDN fix, DNS verify, HA integration)",
   "startup": "application",
